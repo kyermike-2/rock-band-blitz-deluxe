@@ -1,4 +1,4 @@
-name: "Build for RBB"
+name: "Build ONLY for 360"
 
 on: [push]
 
@@ -14,7 +14,7 @@ jobs:
       shell: cmd 
       run: .\windows_bats\build_xbox.bat
 
-    - name: "Build for PS3 (I'm surprised the servers are sitll open)"
-      shell: cmd 
-      run: .\windows_bats\build_ps3.bat 
+#    - name: "Build for PS3 (I'm surprised the servers are sitll open)"
+#      shell: cmd 
+#      run: .\windows_bats\build_ps3.bat 
 # Don't eat these, We know how that turned out.
