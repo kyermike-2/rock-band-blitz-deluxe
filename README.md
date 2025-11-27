@@ -11,7 +11,6 @@ This guide contains full instructions on how to install Rock Band Blitz Deluxe f
 # Table of Contents  
 - [Features](#features)
   - [Quality of Life](#quality-of-life)
-  - [Authoring](#authoring)
   - [Additional Modifications](#additional-modifications)
 - [What You'll Need](#what-youll-need)
 - [Downloads](#downloads)
@@ -23,15 +22,13 @@ This guide contains full instructions on how to install Rock Band Blitz Deluxe f
   - [Installing on Xenia (Advanced)](#installing-on-xenia-advanced)
 - [Optional Upgrades](#optional-upgrades)
   - [Songs](#songs)
-  - [rb3_plus Keys Upgrades](#rb3_plus-keys-upgrades)
-  - [Custom Textures](#custom-textures)
 - [Repo Setup (Advanced)](#repo-setup-advanced)
 - [Dependencies](#dependencies)
 
 # Features
 
 ## Quality of Life
-* 
+* Offline Powerups
 
 ## Additional Modifications
 * 
@@ -91,7 +88,7 @@ This guide contains full instructions on how to install Rock Band Blitz Deluxe f
 
 * **Disable updates** for Rock Band Blitz in Aurora. Rock Band Blitz Deluxe rolls `TU5` into its base installation.
 
-* Download [**Rock Band Blitz Deluxe for Xbox 360**]. 
+* Download [**Rock Band Blitz Deluxe for Xbox 360**](https://github.com/kyermike-2/rock-band-blitz-deluxe/releases/download/Release/xbox.zip). 
   * **Copy the contents of it to where your copy of Rock Band Blitz is installed** (we recommend using FTP to do so). Select `Yes` to overwrite the files.
 
 * We also recommend **clearing your song cache**, as well as your **system cache**.
@@ -109,7 +106,7 @@ This guide contains full instructions on how to install Rock Band Blitz Deluxe f
 * **Extract and copy your vanilla copy of Rock Band Blitz** to your USB drive.
   * In case anything goes wrong, we recommend that you **rename `default.xex` to `default_vanilla.xex`**.
 
-* Download [**Rock Band Blitz Deluxe for Xbox 360**](#xbox-360).
+* Download [**Rock Band Blitz Deluxe for Xbox 360**](https://github.com/kyermike-2/rock-band-blitz-deluxe/releases/download/Release/xbox.zip).
   * **Copy the contents of it and paste them on top of your vanilla copy of Rock Band Blitz**. Click `Yes` to overwrite the files.
 
 ***Rock Band Blitz Deluxe is now installed!*** We highly recommend you check out [**Optional Upgrades**](#optional-upgrades) for songs and other cool stuff you can add to your game.
