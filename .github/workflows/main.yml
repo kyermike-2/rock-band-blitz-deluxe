@@ -1,0 +1,20 @@
+name: "Build for RBB"
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: windows-latest 
+
+    steps:
+    - name: "Checkout repository" # i have no clue what this means but stackoverflow said to do it
+      uses: actions/checkout@v4
+
+    - name: "Build for Microsoft's possibly dead console"
+      shell: cmd 
+      run: .\windows_bats\build_xbox.bat
+
+    - name: "Build for PS3 (I'm surprised the servers are sitll open)"
+      shell: cmd 
+      run: .\windows_bats\build_ps3.bat 
+# Don't eat these, We know how that turned out.
