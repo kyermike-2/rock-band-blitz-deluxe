@@ -16,6 +16,6 @@ jobs:
 
     - name: "Build for PS3 (I'm surprised the servers are sitll open)"
       shell: cmd 
-      run: python "./user_scripts/build_xbox.py" -VVV
+      run: python ".\windows_bats\build_xbox.bat
 
-# Don't eat these, We know how that turned out.
+# I heard bats are nocturnal, Maybe that's why this won't run?
