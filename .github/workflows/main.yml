@@ -16,6 +16,6 @@ jobs:
 
     - name: "Build for PS3 (I'm surprised the servers are sitll open)"
       shell: cmd 
-      run: python ".\windows_bats\build_xbox.bat
+      run: .\windows_bats\build_ps3.bat
 
 # I heard bats are nocturnal, Maybe that's why this won't run?
