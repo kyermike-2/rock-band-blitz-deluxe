@@ -14,14 +14,8 @@ jobs:
 #      shell: cmd 
 #      run: .\windows_bats\build_xbox.bat
 
-#    - name: "Build for PS3 (I'm surprised the servers are sitll open)"
-#      shell: cmd 
-#      run: |
-#        cd "%~dp0../user_scripts"
-#        python "%~dp0../user_scripts/build_xbox.py" -VVV
-
-    - name: "Try to find out what directory i'm in"
+    - name: "Build for PS3 (I'm surprised the servers are sitll open)"
       shell: cmd 
-      run: dir
+      run: python "./user_scripts/build_xbox.py" -VVV
 
 # Don't eat these, We know how that turned out.
